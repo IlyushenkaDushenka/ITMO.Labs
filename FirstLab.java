@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Random;
 
-public class firstLab {
+public class FirstLab {
     public static void main(String[] args){
         Random rand = new Random();
         short[] z = new short[14];
