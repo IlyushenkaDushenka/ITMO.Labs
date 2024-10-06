@@ -1,5 +1,3 @@
-package files;
-
 import java.util.Scanner;
 
 public class HammingKods {
@@ -7,7 +5,7 @@ public class HammingKods {
         Scanner scan = new Scanner(System.in);
         String number = scan.nextLine();
         //Проверка на дебила
-        if (number.length()>7){
+        if (number.length()!=7){
             System.out.println("Ошибочка вышла");
             return;
         }
