@@ -4,6 +4,7 @@ public class HammingKods {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         String number = scan.nextLine();
+        scan.close();
         //Проверка на дебила
         if (number.length()!=7){
             System.out.println("Ошибочка вышла");
