@@ -1,13 +1,16 @@
+package files;
+
 import java.util.Scanner;
 
 public class HammingKods {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
+        System.out.println("Введите код Хэмминга длины 7 символов");
         String number = scan.nextLine();
         scan.close();
         //Проверка на идиота
         if (number.length()!=7){
-            System.out.println("Ошибочка вышла");
+            System.out.println("Длины 7!");
             return;
         }
         char[] nums = new char[7];
